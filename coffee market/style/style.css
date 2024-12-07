@@ -1,0 +1,727 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.nav{
+    background: #1C1814;
+}
+
+.nav_content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.link{
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "Inter", serif;
+
+}
+
+.link:hover{
+    color: #C99E71;
+}
+
+.bag{
+    width: 30px;
+    height: 30px;
+}
+
+.for_bg{
+    background: url(../img/bacground.png) no-repeat center/cover;
+    height: 955px;
+}
+
+.text{
+    font-family: "Urbanist", sans-serif;
+    color: gray;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    padding-bottom: 220px;
+}
+
+.title{
+    font-family: "Righteous", sans-serif;
+    color: #fff;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 93px;
+}
+
+.ggg{
+    padding: 100px 0;
+}
+
+.vvv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.play_video{
+    padding-top: 550px;
+}
+
+.btn{
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "Inter", serif;
+    background: #C99E71;
+    padding: 40px 102px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.section_list{
+    display: flex;
+    justify-content: space-between;
+}
+.number{
+    display: flex;
+    gap: 12px;
+}
+.number_2{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #C99E71;
+    font-family: "Righteous", sans-serif;
+    margin-top: 140px;
+}
+.paragraph{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #fff;
+    font-family: "Righteous", sans-serif;
+    margin-top: 140px;
+    margin-bottom: 24px;
+}
+
+.paragraph_one{
+    color: #C99E71;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 10px 10px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.section_title{
+    color: #fff;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 62px;
+    text-align: center;
+    font-family: "Righteous", sans-serif;
+}
+
+.Products_text{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #fff;
+    font-family: "Righteous", sans-serif;
+    text-align: center;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Products_link{
+    background: #121315;
+    width: 366px;
+    height: 579px;
+}
+
+.Products_coffee{
+    background: #121315;
+    width: 366px;
+    height: 579px;
+    
+}
+
+.btn{
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "Inter", serif;
+    background: #C99E71;
+    padding: 20px 50px;
+}
+
+
+
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Righteous', sans-serif;
+    background-color: #121315;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #ffffff;
+}
+
+.product-section {
+    text-align: center;
+    background-color: #1e1f22;
+    padding: 20px;
+    width: 360px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    margin-bottom: 100px;
+}
+
+.product-image img {
+    width: 100%;
+}
+
+.product-details h2 {
+    margin: 15px 0;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.add-to-cart {
+    background-color: #c99e71;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: "Urbanist", sans-serif;
+}
+
+.jjj{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #C99E71;
+    text-align: center;
+    margin-bottom: 140px;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #fff;
+    font-family: 'Righteous', sans-serif;
+}
+
+.set_of_boxes{
+    display: flex;
+    justify-content: space-between;
+    gap: 36px;
+}
+
+.price{
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.mbb{
+    margin-bottom: 36px;
+}
+
+
+
+
+.coffee-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000;
+    height: 550px;
+    background-color: #1e1f22;
+    border-radius: 8px;
+    padding: 20px 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.coffee-image img {
+    width: 226px;
+    height: 359px;
+    border-radius: 8px;
+}
+
+.coffee-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 200px;
+}
+
+.coffee-title {
+    font-size: 42px;
+    line-height: 1.4;
+    width: 500px;
+    height: 160px;
+    color: #fff;
+    font-family: 'Righteous', sans-serif;
+}
+
+.coffee-description {
+    font-size: 18px;
+    color: #cfcfcf;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    width: 500px;
+    height: 160px;
+    font-family: "Urbanist", sans-serif;
+}
+
+.coffee-button {
+    background-color: #c99e71;
+    color: #fff;
+    border: none;
+    padding: 22px 45px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 4px;
+    cursor: pointer;
+    transition:  0.3s ease, color 0.3s ease;
+}
+
+.coffe-machine{
+    width: 226px;
+    height: 359px;
+    margin-left: 280px; 
+}
+
+
+
+
+.btn_img{
+    width: 72px;
+    height: 72px;
+    margin-left: 24px;
+    margin-top: 24px;
+}
+
+.Products_btn{
+    display: flex;
+    border: 1px solid #32323D;
+    width: 565px;
+    height: 120px;
+    gap: 20px;
+}
+.product_name{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #fff;
+    font-family: 'Righteous', sans-serif;
+    margin-top: 45px;
+    margin-right: 90px;
+}   
+
+.price{
+    font-family: "Urbanist", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #C99E71;
+    margin-top: 49px;
+}
+
+.product_one{
+    margin-bottom: 36px;
+}
+
+.menu_coffe{
+    display: flex;
+    gap: 40px;
+    padding: 0 70px;
+    justify-content: center;
+}
+
+.title_div{
+    padding: 140px 0;
+    text-align: center;
+}
+
+.title_one{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #C99E71;
+    font-family: "Urbanist", sans-serif;
+}
+
+.title_two{
+    font-family: 'Righteous', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 62px;
+    color: #fff;
+}
+
+.coment_one{
+    background-color: #1C1814;
+    width: 585px;
+    height: 305px;
+}
+
+.qotoqkalla_div{
+    display: flex;
+}
+
+.qotoqkalla{
+    width: 129px;
+    height: 149px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.qotoqkalla_text{
+    width: 332px;
+    height: 145px;
+    margin-top: 40px;
+    margin-left: 40px;
+    color: #fff;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 29px;
+    text-align: justify;
+}
+
+.img_qotoqkalla{
+    width: 485px;
+    height: 51px;
+    margin-top: 28px;
+    margin-left: 40px;
+}
+
+.coment{
+    display: flex;
+    gap: 40px;
+    padding: 0 70px;
+    justify-content: center;
+}
+
+.img{
+    margin-top: 36px;
+    padding: 0 70px;
+    margin-left: 180px;
+}
+
+.pjn{
+    width: 120px;
+    height: 51px;
+}
+
+.pjn_two{
+    width: 128px;
+    height: 56px;
+    margin-left: 955px;
+}
+
+.container_3{
+    width: 1920px;
+    max-width: 100%;
+    padding: 0 200px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 145px;
+    justify-content: center;
+}
+.map_contant{
+    display: flex;
+    margin-top: 140px;
+}
+.map_one{
+    width: 585px;
+    height: 652px;
+    margin-top: 140px;
+}
+
+
+
+
+.lokation{
+    max-width: 1170px;
+    width: 100%;
+    height: 652px;
+    margin: 140px auto;
+    display: flex;
+}
+
+.lokation_right{
+    width: 50%;
+    height: 100%;
+    background: #1C1814;
+    text-align: center;
+    align-items: center;
+    padding: 72px 48px;
+}
+
+.ln_right_text{
+    font-family: "Urbanist", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;
+    color: #C99E71;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.ln_right_title{
+    font-family: "Righteous", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 59.6px;
+    text-decoration-skip-ink: none;
+    margin: 12px 0 56px 0;
+    color: #fff;
+}
+
+.ln_right_link, .ln_right_item{
+    max-width: 489px;
+    width: 100%;
+    height: 64px;
+    background: #14110E;
+    padding: 16px 20px;
+    margin: 24px 0;
+    font-family: "Urbanist", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff;  
+}
+
+.ln_right_btn{
+    width: 202px;
+    height: 62px;
+    background: #C99E71;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin: 32px 0 0 0;
+    transition: 0.3s;
+}
+
+.ln_right_btn:hover{
+    background: #fff;
+    color: #C99E71;
+}
+
+.news{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto 140px auto;
+    text-align: center;
+    margin-top: 140px;
+}
+
+.news_content{
+    display: flex;
+    gap: 36px;
+}
+
+.news_item{
+    width: 366px;
+    height: 528px;
+    background: #1C1814;
+    text-align: left;
+}
+
+.item_text{
+    font-family: "Urbanist", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.6px;
+    text-align: left;
+    padding: 20px 24px 16px 24px;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.news_item-span{
+    font-family: "Urbanist", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.6px;
+    text-align: left;
+    padding-left: 135px;
+}
+
+.item_title{
+    font-family: "Righteous", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    padding: 0 0 33px 24px;
+    color: #fff;
+}
+
+.news_item-btn{
+    font-family: "Urbanist", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    padding-left: 24px;
+    color: #C99E71;
+}
+
+.sec_text{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.6px;
+    color: #C99E71;
+    font-family: "Urbanist", sans-serif;
+    margin-top: 12px;
+}
+
+.sec_title{
+    color: #fff;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 62.4px;
+    font-family: "Righteous", sans-serif;
+    margin-bottom: 56px;
+}
+
+
+.footer{
+    background-color: #14110E;
+}
+
+.footer_content{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto 78px auto;
+}
+
+.footer_nav{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_list{
+    display: flex;
+    gap: 40px;
+    margin-left: -50px;
+}
+
+.footer_link{
+    font-family: "Urbanist", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #fff;
+}
+
+.footer_input{
+    width: 328px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    background-color: #1C1814; 
+    border-radius: 50px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.email-input {
+    border: none;
+    outline: none;
+    background: none;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    flex: 1;
+    border-radius: 50px 0 0 50px;
+}
+
+.email-input::placeholder {
+    color: #888;
+}
+
+.email-btn {
+    width: 65px;
+    height: 48px;
+    border: none;
+    outline: none;
+    background-color: #C99E71; 
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 22px 44px 0px #C99E7133;
+    transition: transform 0.2s ease;
+}
+
+.email-btn:hover {
+    transform: scale(1.1);
+}
+
+.footer_bottom{
+    width: 100%;
+    background: #1C1814;
+    text-align: center;
+    justify-content: center;
+    padding: 33px;
+}
+
+.footer_text{
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25.2px;
+    font-family: "Urbanist", sans-serif;
+}
